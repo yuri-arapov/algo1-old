@@ -86,7 +86,7 @@
 ;; graph        -- enumerator of the vertices (tails) bound to other vertices
 ;;                 (heads)
 ;; vertices     -- list of vertices
-;; init         -- initial value of accumolator
+;; init         -- initial value of accumulator
 ;; pre-dfs-fn   -- (pre-dfs-fn v old-accum) -> new-accum
 ;; dfs-accum-fn -- (dfs-accum-fn v old-accum) -> new-accum
 (define (dfs-loop graph vertices init pre-dfs-fn dfs-accum-fn)
